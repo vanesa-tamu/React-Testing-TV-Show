@@ -2,6 +2,7 @@ import React from 'react';
 import parse from 'html-react-parser';
 
 export default function Episodes(props) {
+  /*console.log('EPISODES Props', props) //{episodes: Array(9)}*/
   return (
     <div className="episodes">
       {props.episodes.map(e => (
