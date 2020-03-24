@@ -6,6 +6,6 @@ export const formatSeasons = allEpisodes => {
     }
     seasons[`Season ${e.season}`].push(e);
   });
-  console.log(seasons);
-  return seasons;
+  // console.log(seasons);
+  return seasons; //object with seasons as keys and values of []s
 };
